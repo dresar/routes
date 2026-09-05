@@ -1,0 +1,44 @@
+
+# Secrets & Environments (MANDATORY NEVER PUSH)
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+
+# Dependencies & Virtual Envs
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Build outputs
+build/
+dist/
+out/
+.next/
+.nuxt/
+.dart_tool/
+.gradle/
+*.apk
+*.aab
+*.ipa
+*.exe
+*.dll
+*.iso
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Media / Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
